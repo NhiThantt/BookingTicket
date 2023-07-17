@@ -6,13 +6,13 @@ export default class ProductDetail extends Component {
       this.props.selectedProduct;
     return (
       <div style={{
-        backgroundColor: "rgba (0,0,0,0.5)",
+        backgroundColor: "rgba (0,0,0,0.8)",
         position: "fixed",
         top: "50%",
         left: "50%",
         transform: "translate(-50%, -50%)",
         width: "50%",
-        height: "50%",
+        height: "60%",
       }} className='d-flex justify-content-center align-items-center bg-white shadow rounded'>
         <span
           onClick={this.props.onHideDetail}

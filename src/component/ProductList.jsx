@@ -8,7 +8,7 @@ export default class ProductList extends Component {
         <div className='row'>
             {this.props.data.map((item) => (
                 <div key={item.id} className="col-3">
-                    <ProductItem prod={item}
+                    <ProductItem sp={item}
                     onAddToCart={this.props.onAddToCart}
                     setSelectedProduct={this.props.setSelectedProduct}
                     onShowDetail={this.props.onShowDetail}

@@ -1,11 +1,12 @@
 //đây là file tạo component App để đưa lên giao diện
 
-import ShoeShop from "./component";
+import BaiTapBookingTicket from "./Components/BaiTapBookingTicket/BaiTapBookingTicket";
+
 
 function App() {
   return (
     <div className="App">
-    <ShoeShop />
+    <BaiTapBookingTicket />
   </div>
   );
 }
